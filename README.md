@@ -26,3 +26,9 @@ Dans la classe princesse, j'ai réalisé une surcharge du constructeur, j'éxéc
 Faire cela m'évite de réécrire tout le constructeur dans les classes enfants, c'est trés utile surtout si le constructeur
 de la classe mere contient beaucoup de lignes de code.
 
+Pour accéder à la méthode parente à ma classe, j'ai utilisé l'opérateur de portée "::"
+
+J'aurais également pu aussi ecrire personnage::__construct(), parent ici est un mot clef permettant de faire référence à
+la classe mere
+
+Il existe d'autres mots clefs, comme "self" par exemple, qui fait référence à la classe elle même.
