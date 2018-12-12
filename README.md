@@ -3,7 +3,7 @@ Consignes :
 - Vous allez créer une nouvelle classe appelée "sorcier", vous la placerez dans un fichier appelé sorcier.php dans le dossier classes
 - Cette classe va hériter de la classe personnage
 - Vous allez surcharger le constructeur de la classe sorcier pour que le constructeur ait exactement le même comportement
- que la classe personnage
+ que le constructeur de la classe personnage
  - a la suite de la surcharge du constructeur, vous définirez les propriétés x et y à 125
  - sur index.php, vous allez créer une nouvelle instance de princesse, une nouvelle instance de sorcier et tester
  les différentes valeurs de ces instances.
