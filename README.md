@@ -14,7 +14,7 @@ Consignes :
 
 Théorie :
 
-Lors de l'héritage d'une classe, certaines méthodes ne sont pas automatiquement héritée, c'est le cas de la méthode magique
+Lors de l'héritage d'une classe, certaines méthodes ne sont pas automatiquement héritée si un constructeur n'est pas défini dans la classe enfant, c'est le cas de la méthode magique
 __construct() qui s'éxécute lorsqu'une classe est instanciée.
 
 Dans l'exercice précédent, je vous ai demandé de créer une classe princesse qui hérite de la classe personnage, si vous avez
